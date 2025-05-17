@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>WIFY-Assignment</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>Hypermart Checkout System</h2>
+            <p>Real-time queue management system</p>
+        </header>
+        <main>
+            <div class="customerAdd">
+                <input type="number" id="itemInput" placeholder="Enter number of items" min="1"/>
+                <button onclick="handleCustomerAdd()">Checkout Items</button>
+            </div>
+            <div id="checkoutArea" class="checkout-area"></div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
